@@ -270,15 +270,6 @@ const Decreepies: NextPage = () => {
     );
   }
 
-  function toast(arg0: {
-    title: string;
-    description: string;
-    duration: number;
-    className: string;
-  }) {
-    throw new Error("Function not implemented.");
-  }
-
   return (
     <div className={styles.decreepies}>
       <div className={styles.navbar}>
