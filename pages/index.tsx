@@ -445,25 +445,6 @@ const Decreepies: NextPage = () => {
                   contractAddress={contract?.getAddress() || ""}
                   action={(chtr) => chtr.erc721.claim(quantity)}
                   isDisabled={!canClaim || buttonLoading}
-                  onError={(err) => {
-                    console.error(err);
-                    console.log({ err });
-                    toast({
-                      title: "Failed to mint drop",
-                      description: (err as any).reason || "",
-                      duration: 9000,
-                      variant: "destructive",
-                    });
-                  }}
-                  onSuccess={() => {
-                    toast({
-                      title: "Successfully minted",
-                      description:
-                        "The NFT has been transferred to your wallet",
-                      duration: 5000,
-                      className: "bg-green-500",
-                    });
-                  }}
                 >
                   {buttonLoading ? (
                     <div role="status">
