@@ -3,10 +3,11 @@ import Head from "next/head";
 import type { AppProps } from "next/app";
 import "./global.css";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
+import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={"goerli"}>
+    <ThirdwebProvider activeChain={"ethereum"}>
       <Head>
         <title>DeCreepies</title>
         <meta
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="favicon.ico" />
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </ThirdwebProvider>
   );
 }

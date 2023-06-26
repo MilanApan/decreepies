@@ -55,7 +55,7 @@ const Decreepies: NextPage = () => {
     );
   }, []);
 
-  const contractAddress = "0x547066c48A8184B464A9e1Dde075B443F54Fe4b3";
+  const contractAddress = "0xa0A6ed3Fdc50ec1571963243cCEa78f5371994e6";
   const { contract } = useContract(contractAddress);
   const address = useAddress();
 
