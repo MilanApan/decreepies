@@ -25,7 +25,7 @@ const Decreepies: NextPage = () => {
   }, []);
 
   const onOpensea1IconClick = useCallback(() => {
-    window.open("https://opensea.io/");
+    window.open("https://opensea.io/collection/decreepies");
   }, []);
 
   const onEtherscanClick = useCallback(() => {
@@ -46,7 +46,7 @@ const Decreepies: NextPage = () => {
   }, []);
 
   const onOpensea1Icon1Click = useCallback(() => {
-    window.open("https://opensea.io/");
+    window.open("https://opensea.io/collection/decreepies");
   }, []);
 
   const onEtherscan1Click = useCallback(() => {

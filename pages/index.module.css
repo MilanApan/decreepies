@@ -750,7 +750,7 @@
     padding-right: var(--padding-3xs);
   }
   .mainContainer {
-    gap: 11px;
+    gap: 21px;
     padding-right: 0;
     padding-bottom: var(--padding-xl);
     display: flex;
