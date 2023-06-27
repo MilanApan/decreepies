@@ -285,7 +285,7 @@ const Decreepies: NextPage = () => {
           <div className={styles.linkandconnect}>
             <div className={styles.icon}>
               <div className={styles.twitter} onClick={onTwitterContainerClick}>
-                <a className={styles.icon1} href="http://">
+                <a className={styles.icon1}>
                   <img
                     className={styles.layer2Icon}
                     alt=""
@@ -465,7 +465,7 @@ const Decreepies: NextPage = () => {
                 className={styles.twitter}
                 onClick={onTwitterContainer1Click}
               >
-                <a className={styles.icon1} href="http://">
+                <a className={styles.icon1}>
                   <img
                     className={styles.layer2Icon}
                     alt=""
