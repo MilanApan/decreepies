@@ -360,11 +360,11 @@ const Decreepies: NextPage = () => {
             </p>
             <p className={styles.wenStealthLaunch}>
               <span className={styles.wen}>Price?</span>
-              <span> First 500 Free, then 0.0013 ETH</span>
+              <span> 0.001 ETH</span>
             </p>
             <p className={styles.wenStealthLaunch}>
               <span className={styles.wen}>Max Wallet?</span>
-              <span> 2 (free) / 20 (pay) per wallet</span>
+              <span> 20 per wallet</span>
             </p>
           </div>
         </div>
