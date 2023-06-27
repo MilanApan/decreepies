@@ -349,14 +349,7 @@ const Decreepies: NextPage = () => {
               <span>Total Supply?</span>
               <span className={styles.span1}> 3333</span>
             </p>
-            <p className={styles.wenStealthLaunch}>
-              <span className={styles.wen}>Price?</span>
-              <span> First 500 free, then 0.0013 ETH</span>
-            </p>
-            <p className={styles.wenStealthLaunch}>
-              <span className={styles.wen}>Max Wallet?</span>
-              <span> 20 NFTs per wallet</span>
-            </p>
+
             <p className={styles.wenStealthLaunch}>
               <span className={styles.wen}>Reveal?</span>
               <span> Instant</span>
@@ -364,6 +357,14 @@ const Decreepies: NextPage = () => {
             <p className={styles.wenStealthLaunch}>
               <span className={styles.wen}>Network?</span>
               <span> Ethereum</span>
+            </p>
+            <p className={styles.wenStealthLaunch}>
+              <span className={styles.wen}>Price?</span>
+              <span> First 500 free FCFS, then 0.0013 ETH</span>
+            </p>
+            <p className={styles.wenStealthLaunch}>
+              <span className={styles.wen}>Max Wallet?</span>
+              <span> 2 (free) / 20 (0.0013) per wallet</span>
             </p>
           </div>
         </div>
