@@ -393,7 +393,7 @@ const Decreepies: NextPage = () => {
       <div className={styles.mint}>
         <div
           className={styles.unique11Decreepies}
-        >{`3333 unique 1/1 DeCreepies NFTs. A unique and unimaginable combination of shapes and body parts of the characters will excite your imagination. DeCreepies are eager to break out on the gun. `}</div>
+        >{`3333 unique 1/1 DeCreepies NFTs. A unique and unimaginable combination of shapes and body parts of the characters will excite your imagination. Сreepy creatures are eager to break out `}</div>
         <div className={styles.blockminted}>
           <div className={styles.artandtotal}>
             <img
